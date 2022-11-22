@@ -107,25 +107,42 @@ body{
 
 .large__cards{
   width: 400px;
-  margin: 0 auto;
+  margin: 20px auto;
   background-color: hsl(228, 28%, 20%);
-  height: 40vh;
+  height: 260px;
+  border-radius: 10px;
 }
 
 .card__line{
   height: 6px;
   border-radius: 20px 20px 0px 0px;
   border: none;
+}
+
+.facebook__line{
   background-color: hsl(208, 92%, 53%);
+}
+
+.twitter__line{
+  background-color: hsl(203, 89%, 53%);
+}
+
+.instagram__line{
+  background-color:#df4996;
+}
+
+.youtube__line{
+  background-color: hsl(348, 97%, 39%);
 }
 
 .large__cards--id{
   color: hsl(228, 34%, 66%);
   text-align: center;
-  padding-top: 2em;
+  padding-top: 1em;
   font-weight: 700;
   font-size: 0.8em;
   line-height: 0px;
+  
 }
 
 .large__cards--number{
@@ -152,4 +169,18 @@ body{
   text-align: center;
   padding-top: 2em;
   font-size: 0.8em;
+}
+
+.today--positive{
+  color: hsl(163, 72%, 41%);
+}
+
+.today--negative{
+  color: hsl(356, 69%, 56%);
+}
+
+.icone{
+  padding-right: 10px;
+  position: relative;
+  top: 6px;
 }
