@@ -100,6 +100,56 @@ body{
     display: inline-flex;
     
   }
+
 .first__cards{
 
+}
+
+.large__cards{
+  width: 400px;
+  margin: 0 auto;
+  background-color: hsl(228, 28%, 20%);
+  height: 40vh;
+}
+
+.card__line{
+  height: 6px;
+  border-radius: 20px 20px 0px 0px;
+  border: none;
+  background-color: hsl(208, 92%, 53%);
+}
+
+.large__cards--id{
+  color: hsl(228, 34%, 66%);
+  text-align: center;
+  padding-top: 2em;
+  font-weight: 700;
+  font-size: 0.8em;
+  line-height: 0px;
+}
+
+.large__cards--number{
+  color: hsl(0, 0%, 100%);
+  font-size: 4em;
+  padding-top: 0.1em;
+  font-weight: 700;
+  text-align: center;
+  line-height: 0px;
+}
+
+.large__cards--followers{
+  color: hsl(228, 34%, 66%);
+  text-align: center;
+  position: relative;
+  top: -15px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  line-height: 0px;
+}
+
+.large__cards--today{
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  padding-top: 2em;
+  font-size: 0.8em;
 }
