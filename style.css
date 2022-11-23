@@ -2,7 +2,7 @@
 
 body{
     font-family: 'Inter', sans-serif;
-    width: 90vw;
+    width: 70vw;
     padding: 0px;
     background-color:  hsl(230, 17%, 14%);
     margin:0px auto;
@@ -35,7 +35,7 @@ body{
  .switch {
     position: relative;
     display: inline-block;
-    left: 50vw;
+    left: 45vw;
     align-self: center;
     width: 60px;
     height: 30px;
@@ -171,16 +171,67 @@ body{
   font-size: 0.8em;
 }
 
+
+.icone{
+  padding-right: 10px;
+  position: relative;
+  top: 6px;
+}
+
+.icon__today{
+  position: relative;
+  bottom: 4px;
+  right: 9px;
+}
+
+.small__cards{
+  width: 400px;
+  margin: 30px auto;
+  background-color: hsl(228, 28%, 20%);
+  height: 150px;
+  border-radius: 10px;
+  
+}
+
+.small__cards--text{
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 40px 0px 40px;
+  color: hsl(228, 34%, 66%);
+  line-height: 0px;
+}
+
+.small__cards--number{
+  font-weight: bold;
+  color: hsl(0, 0%, 100%);
+  font-size: 2.5em;
+  line-height: 0px;
+  padding-left: 40px;
+}
+
+.small__cards--porcent{
+  padding-right: 40px;
+  padding-top: 20px;
+  color: hsl(163, 72%, 41%);
+}
+
+.small__cards--line2{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  bottom: 20px;
+}
+
+.small__cards--arrow{
+  padding-right: 5px;
+  position: relative;
+  bottom: 4px;
+}
+
 .today--positive{
   color: hsl(163, 72%, 41%);
 }
 
 .today--negative{
   color: hsl(356, 69%, 56%);
-}
-
-.icone{
-  padding-right: 10px;
-  position: relative;
-  top: 6px;
 }
