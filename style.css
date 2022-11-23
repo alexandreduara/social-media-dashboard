@@ -2,7 +2,7 @@
 
 body{
     font-family: 'Inter', sans-serif;
-    width: 70vw;
+    width: 400px;
     padding: 0px;
     background-color:  hsl(230, 17%, 14%);
     margin:0px auto;
@@ -35,7 +35,7 @@ body{
  .switch {
     position: relative;
     display: inline-block;
-    left: 45vw;
+    left: 260px;
     align-self: center;
     width: 60px;
     height: 30px;
