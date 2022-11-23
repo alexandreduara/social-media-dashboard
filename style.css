@@ -128,7 +128,7 @@ body{
 }
 
 .instagram__line{
-  background-color:#df4996;
+  background-image: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
 }
 
 .youtube__line{
