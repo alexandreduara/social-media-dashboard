@@ -2,14 +2,19 @@
 
 body{
     font-family: 'Inter', sans-serif;
-    width: 400px;
+
     padding: 0px;
     background-color:  hsl(230, 17%, 14%);
     margin:0px auto;
 
 }
 
-.título__principal{
+header{
+  margin:0px auto;
+  width: 90vw;
+}
+
+.titulo__principal , .titulo__overview{
     margin-top: 30px;
     color: hsl(0, 0%, 100%);
     font-size: 1.5em;
@@ -21,6 +26,7 @@ body{
 }
 
 .header__line{
+    display: block;
     margin-top: 30px;
     color: hsl(228, 28%, 20%);
 }
@@ -34,8 +40,8 @@ body{
  /* The switch - the box around the slider */
  .switch {
     position: relative;
-    display: inline-block;
-    left: 260px;
+    display: flex;
+    left: 50vw;
     align-self: center;
     width: 60px;
     height: 30px;
@@ -101,12 +107,15 @@ body{
     
   }
 
-.first__cards{
+  .first__cards{
+    display: block;
+    width: 100%;
 
-}
+  }
 
 .large__cards{
-  width: 400px;
+
+  width: 90vw;
   margin: 20px auto;
   background-color: hsl(228, 28%, 20%);
   height: 260px;
@@ -184,12 +193,16 @@ body{
   right: 9px;
 }
 
+.titulo__overview{
+  padding-left: 20px;
+}
+
 .small__cards{
-  width: 400px;
+  width: 90vw;
   margin: 30px auto;
   background-color: hsl(228, 28%, 20%);
   height: 150px;
-  border-radius: 10px;
+  border-radius: 5px;
   
 }
 
@@ -234,4 +247,42 @@ body{
 
 .today--negative{
   color: hsl(356, 69%, 56%);
+}
+
+@media screen and (min-width: 600px) {
+  .first__cards{
+    display: flex;
+    width: 90vw;
+    margin: 0px auto;
+  }
+  .header__line{
+    display: none;
+  }
+  .mode{
+    position: absolute;
+    right: 10vw;
+    top: 30px;
+  }
+  .switch{
+    position: relative;
+    left: 20px;
+  }
+  .large__cards{
+    margin-left: 20px;
+    width: 800px;
+  }
+  .small__cards--1, .small__cards--2{
+    display: flex;
+    width: 90vw;
+    margin: 0px auto;
+  }
+  .small__cards{
+    margin-left: 20px;
+  }
+  .titulo__overview{
+    padding-left: 6vw;
+  }
+  .small__cards--text{
+    padding-top: 30px;
+  }
 }
