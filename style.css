@@ -1,10 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
+:root{
+  /* positive or negative */
+  --lime-green: hsl(163, 72%, 41%);
+  --bright-red: hsl(356, 69%, 56%);
+
+  /* color of the line-top in the large cards */
+  --facebook: hsl(208, 92%, 53%);
+  --twitter: hsl(203, 89%, 53%);
+  --instagram: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+  --youtube: hsl(348, 97%, 39%);
+
+  /* themes */
+  --dark-theme: linear gradient hsl(210, 78%, 56%) to hsl(146, 68%, 55%);
+  --light-theme: hsl(230, 22%, 74%);
+
+  /* dark theme */
+  --very-dark-blue-bg: hsl(230, 17%, 14%);
+  --very-dark-blue-bg-top: hsl(232, 19%, 15%);
+  --dark-desaturated-blue:  hsl(228, 28%, 20%);
+  --desaturated-blue: hsl(228, 34%, 66%);
+  --white-text: hsl(0, 0%, 100%);
+
+  /* light theme */
+  --white-bg: hsl(0, 0%, 100%);
+  --very-pale-blue-bg-top: hsl(225, 100%, 98%);
+  --light-grayish-blue: hsl(227, 47%, 96%);
+  --dark-grayish-blue-text: hsl(228, 12%, 44%);
+  --very-dark-blue-text: hsl(230, 17%, 14%);
+
+
+}
+
 body{
     font-family: 'Inter', sans-serif;
 
     padding: 0px;
-    background-color:  hsl(230, 17%, 14%);
+    background-color:  var(--very-dark-blue-bg);
     margin:0px auto;
 
 }
@@ -16,24 +48,23 @@ header{
 
 .titulo__principal , .titulo__overview{
     margin-top: 30px;
-    color: hsl(0, 0%, 100%);
+    color: var(--white-text);
     font-size: 1.5em;
 }
 
 .total__followers{
     line-height: 0px;
-    color: hsl(228, 34%, 66%);
+    color: var(--desaturated-blue);
 }
 
 .header__line{
     display: block;
     margin-top: 30px;
-    color: hsl(228, 28%, 20%);
+    color: var(--dark-desaturated-blue);
 }
 
 .mode__text{
-    color: hsl(228, 34%, 66%);
-
+    color: var(--desaturated-blue);
 }
 
 /* CSS do switch */
@@ -62,7 +93,7 @@ header{
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: hsl(163, 72%, 41%);
+    background-color: var(--lime-green);
     -webkit-transition: .4s;
     transition: .4s;
   }
@@ -74,13 +105,13 @@ header{
     width: 26px;
     left: 4px;
     bottom: 2.5px;
-    background-color: hsl(230, 17%, 14%);
+    background-color: var(--very-dark-blue-bg);
     -webkit-transition: .4s;
     transition: .4s;
   }
   
   input:checked + .slider {
-    background-color: #2196F3;
+    background-color: hsl(207, 90%, 54%);
   }
   
   input:focus + .slider {
@@ -117,7 +148,7 @@ header{
 
   width: 90vw;
   margin: 20px auto;
-  background-color: hsl(228, 28%, 20%);
+  background-color: var(--dark-desaturated-blue);
   height: 260px;
   border-radius: 10px;
 }
@@ -129,23 +160,23 @@ header{
 }
 
 .facebook__line{
-  background-color: hsl(208, 92%, 53%);
+  background-color: var(--facebook);
 }
 
 .twitter__line{
-  background-color: hsl(203, 89%, 53%);
+  background-color: var(--twitter);
 }
 
 .instagram__line{
-  background-image: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+  background-image: var(--instagram);
 }
 
 .youtube__line{
-  background-color: hsl(348, 97%, 39%);
+  background-color: var(--youtube);
 }
 
 .large__cards--id{
-  color: hsl(228, 34%, 66%);
+  color: var(--desaturated-blue);
   text-align: center;
   padding-top: 1em;
   font-weight: 700;
@@ -155,7 +186,7 @@ header{
 }
 
 .large__cards--number{
-  color: hsl(0, 0%, 100%);
+  color: var(--white-text);
   font-size: 4em;
   padding-top: 0.1em;
   font-weight: 700;
@@ -164,7 +195,7 @@ header{
 }
 
 .large__cards--followers{
-  color: hsl(228, 34%, 66%);
+  color: var(--desaturated-blue);
   text-align: center;
   position: relative;
   top: -15px;
@@ -174,7 +205,7 @@ header{
 }
 
 .large__cards--today{
-  color: hsl(0, 0%, 100%);
+  color: var(--white-text);
   text-align: center;
   padding-top: 2em;
   font-size: 0.8em;
@@ -200,7 +231,7 @@ header{
 .small__cards{
   width: 90vw;
   margin: 30px auto;
-  background-color: hsl(228, 28%, 20%);
+  background-color: var(--dark-desaturated-blue);
   height: 150px;
   border-radius: 5px;
   
@@ -210,13 +241,12 @@ header{
   display: flex;
   justify-content: space-between;
   padding: 40px 40px 0px 40px;
-  color: hsl(228, 34%, 66%);
-  line-height: 0px;
+  color: var(--desaturated-blue);
 }
 
 .small__cards--number{
   font-weight: bold;
-  color: hsl(0, 0%, 100%);
+  color: var(--white-text);
   font-size: 2.5em;
   line-height: 0px;
   padding-left: 40px;
@@ -225,7 +255,7 @@ header{
 .small__cards--porcent{
   padding-right: 40px;
   padding-top: 20px;
-  color: hsl(163, 72%, 41%);
+  color: var(--lime-green);
 }
 
 .small__cards--line2{
@@ -242,14 +272,14 @@ header{
 }
 
 .today--positive{
-  color: hsl(163, 72%, 41%);
+  color: var(--lime-green);
 }
 
 .today--negative{
-  color: hsl(356, 69%, 56%);
+  color: var(--bright-red);
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1000px) {
   .first__cards{
     display: flex;
     width: 90vw;

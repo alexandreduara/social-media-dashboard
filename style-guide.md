@@ -35,7 +35,7 @@ The designs were created to the following widths:
 - Very Dark Blue (Top BG Pattern): hsl(232, 19%, 15%)
 - Dark Desaturated Blue (Card BG): hsl(228, 28%, 20%)
 - Desaturated Blue (Text): hsl(228, 34%, 66%)
-- White (Text): hsl(0, 0%, 100%)
+- : hsl(0, 0%, 100%)
 
 #### Light Theme
 
