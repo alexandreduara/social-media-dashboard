@@ -329,4 +329,13 @@ header{
   }
 }
 
-
+.attribution {
+  width: 350px;
+  margin: 0px auto;
+  font-size: 0.7em; text-align: center; 
+  background: gray;
+  border-radius: 20px;
+  padding: 5px 0px;
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%); }
