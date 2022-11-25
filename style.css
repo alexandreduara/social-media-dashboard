@@ -11,10 +11,14 @@
   --instagram: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
   --youtube: hsl(348, 97%, 39%);
 
-  /* themes */
-  --dark-theme: linear gradient hsl(210, 78%, 56%) to hsl(146, 68%, 55%);
+  --dark-theme: hsl(146, 68%, 55%);
   --light-theme: hsl(230, 22%, 74%);
 
+  --color1: var(--very-dark-blue-bg);
+  --color2: var(--very-dark-blue-bg-top);
+  --color3: var(--dark-desaturated-blue);
+  --color4: var(--desaturated-blue);
+  --color5: var(--white-text);
   /* dark theme */
   --very-dark-blue-bg: hsl(230, 17%, 14%);
   --very-dark-blue-bg-top: hsl(232, 19%, 15%);
@@ -28,15 +32,21 @@
   --light-grayish-blue: hsl(227, 47%, 96%);
   --dark-grayish-blue-text: hsl(228, 12%, 44%);
   --very-dark-blue-text: hsl(230, 17%, 14%);
+}
 
-
+.light{
+  --color1: var(--white-bg);
+  --color2: var(--very-pale-blue-bg-top);
+  --color3: var(--light-grayish-blue);
+  --color4: var(--dark-grayish-blue-text);
+  --color5: var(--very-dark-blue-text);
 }
 
 body{
     font-family: 'Inter', sans-serif;
 
     padding: 0px;
-    background-color:  var(--very-dark-blue-bg);
+    background:  var(--color1);
     margin:0px auto;
 
 }
@@ -48,31 +58,33 @@ header{
 
 .titulo__principal , .titulo__overview{
     margin-top: 30px;
-    color: var(--white-text);
+    color: var(--color5);
     font-size: 1.5em;
 }
 
 .total__followers{
     line-height: 0px;
-    color: var(--desaturated-blue);
+    color: var(--color4);
+    font-weight: 700;
 }
 
 .header__line{
     display: block;
     margin-top: 30px;
-    color: var(--dark-desaturated-blue);
+    color: var(--color3);
 }
 
 .mode__text{
-    color: var(--desaturated-blue);
+    color: var(--color4);
+    font-weight: 700;
 }
 
 /* CSS do switch */
  /* The switch - the box around the slider */
  .switch {
-    position: relative;
+    position: absolute;
     display: flex;
-    left: 50vw;
+    right: 5vw;
     align-self: center;
     width: 60px;
     height: 30px;
@@ -93,7 +105,7 @@ header{
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: var(--lime-green);
+    background-color: var(--dark-theme);
     -webkit-transition: .4s;
     transition: .4s;
   }
@@ -105,13 +117,13 @@ header{
     width: 26px;
     left: 4px;
     bottom: 2.5px;
-    background-color: var(--very-dark-blue-bg);
+    background-color: var(--color1);
     -webkit-transition: .4s;
     transition: .4s;
   }
   
   input:checked + .slider {
-    background-color: hsl(207, 90%, 54%);
+    background-color:var(--light-theme) ;
   }
   
   input:focus + .slider {
@@ -148,7 +160,7 @@ header{
 
   width: 90vw;
   margin: 20px auto;
-  background-color: var(--dark-desaturated-blue);
+  background-color: var(--color3);
   height: 260px;
   border-radius: 10px;
 }
@@ -176,7 +188,7 @@ header{
 }
 
 .large__cards--id{
-  color: var(--desaturated-blue);
+  color: var(--color4);
   text-align: center;
   padding-top: 1em;
   font-weight: 700;
@@ -186,7 +198,7 @@ header{
 }
 
 .large__cards--number{
-  color: var(--white-text);
+  color: var(--color5);
   font-size: 4em;
   padding-top: 0.1em;
   font-weight: 700;
@@ -195,7 +207,7 @@ header{
 }
 
 .large__cards--followers{
-  color: var(--desaturated-blue);
+  color: var(--color4);
   text-align: center;
   position: relative;
   top: -15px;
@@ -205,7 +217,7 @@ header{
 }
 
 .large__cards--today{
-  color: var(--white-text);
+  color: var(--color5);
   text-align: center;
   padding-top: 2em;
   font-size: 0.8em;
@@ -231,7 +243,7 @@ header{
 .small__cards{
   width: 90vw;
   margin: 30px auto;
-  background-color: var(--dark-desaturated-blue);
+  background-color: var(--color3);
   height: 150px;
   border-radius: 5px;
   
@@ -241,12 +253,12 @@ header{
   display: flex;
   justify-content: space-between;
   padding: 40px 40px 0px 40px;
-  color: var(--desaturated-blue);
+  color: var(--color4);
 }
 
 .small__cards--number{
   font-weight: bold;
-  color: var(--white-text);
+  color: var(--color5);
   font-size: 2.5em;
   line-height: 0px;
   padding-left: 40px;
@@ -316,3 +328,5 @@ header{
     padding-top: 30px;
   }
 }
+
+
