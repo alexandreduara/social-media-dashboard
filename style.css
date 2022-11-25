@@ -333,7 +333,7 @@ header{
   width: 350px;
   margin: 0px auto;
   font-size: 0.7em; text-align: center; 
-  background: gray;
+  background: var(--color3);
   border-radius: 20px;
   padding: 5px 0px;
 }
