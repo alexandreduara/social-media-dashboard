@@ -7,14 +7,11 @@
 <br>
 
 ![Este é um preview de como o projeto deverá ficar](./assets/img/design/projeto-finalizado.png)
-<<<<<<< HEAD
 
 <br>
 
 ## Um GIF Rápido mostrando o projeto :space_invader:
 ![Um Gif rápido mostrando o projeto](./assets/img/design/InShot_20221126_144237141.gif)
-=======
->>>>>>> 570b599cc24f10c50ea5d50f34e202b12ea79ec5
 
 ## Neste projeto eu :books:
 - ### Comecei a solidificar os meus conhecimentos em HTML e CSS, 
