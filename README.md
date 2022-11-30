@@ -6,7 +6,12 @@
 ## [Deploy do Website - dê uma olhada de como ficou o site :wink: ](https://painel-social-media.netlify.app/)
 <br>
 
-![Este é um preview de como o projeto deverá ficar](./design/projeto-finalizado.png)
+![Este é um preview de como o projeto deverá ficar](./assets/img/design/projeto-finalizado.png)
+
+<br>
+
+## Um GIF Rápido mostrando o projeto :space_invader:
+![Um Gif rápido mostrando o projeto](./assets/img/design/InShot_20221126_144237141.gif)
 
 ## Neste projeto eu :books:
 - ### Comecei a solidificar os meus conhecimentos em HTML e CSS, 
