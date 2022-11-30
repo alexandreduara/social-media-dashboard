@@ -3,7 +3,7 @@
 ## Fique a vontade para sugerir alterações, este é o momento de colocar os meus atuais conhecimentos em prática :)
 <br>
 
-## [Deploy do Website - dê uma olhada de como ficou o site :wink: ](https://painel-social-media.netlify.app/)
+## [Deploy do Website - dê uma olhada em como ficou o site :wink: ](https://painel-social-media.netlify.app/)
 <br>
 
 ![Este é um preview de como o projeto deverá ficar](./assets/img/design/projeto-finalizado.png)
