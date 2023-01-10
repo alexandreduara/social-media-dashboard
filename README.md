@@ -25,7 +25,7 @@
 - ### Implementação do Switch.
 - ### Separar as cores por variáveis.
 - ### Implementar a função toggle no JavaScript.
-- ### Responsividade do projeto.
+- ### Implementei a Responsividade do projeto.
 
 ## Linguagens utilizadas no projeto :computer:
 <br>
