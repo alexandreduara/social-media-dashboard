@@ -1,16 +1,16 @@
 # Olá! :raising_hand: Neste projeto eu criei um painel de controle de mídias com um botão para alterar o tema da página 
 
-## Fique a vontade para sugerir alterações, este é o momento de colocar os meus atuais conhecimentos em prática :)
+### Fique a vontade para sugerir alterações, este é o momento de colocar os meus atuais conhecimentos em prática :)
 <br>
 
-## [Deploy do Website - dê uma olhada em como ficou o site :wink: ](https://painel-social-media.netlify.app/)
+### [Deploy do Website - dê uma olhada em como ficou o site :wink: ](https://painel-social-media.netlify.app/)
 <br>
 
 ![Este é um preview de como o projeto deverá ficar](./assets/img/design/projeto-finalizado.png)
 
 <br>
 
-## Um GIF Rápido mostrando o projeto :space_invader:
+### Um GIF Rápido mostrando o projeto :space_invader:
 ![Um Gif rápido mostrando o projeto](./assets/img/design/InShot_20221126_144237141.gif)
 
 ## Neste projeto eu :books:
